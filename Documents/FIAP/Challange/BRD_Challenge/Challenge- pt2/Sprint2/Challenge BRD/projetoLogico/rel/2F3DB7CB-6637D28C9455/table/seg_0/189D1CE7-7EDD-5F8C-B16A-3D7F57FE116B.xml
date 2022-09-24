@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="189D1CE7-7EDD-5F8C-B16A-3D7F57FE116B" name="T_UNXT_END_EMP">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>15695CD2-263D-8B75-012A-23AB0B549E88</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENDERECO_EMPRESA" id="9153B00C-5ED6-B628-96CA-429A37457174">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>EF0AB1EA-6C3F-A7CF-6981-C246AE53452D</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_UNXT_EMP_ID_EMPRESA" id="F3B6AFDB-033C-2709-8EA1-91A48D57E30D">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>90D5C765-44D6-20F2-CB74-8C1E3B06000B</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF6BE6AC-ABEE-DBC0-34E4-05F3EDAA1732" referredColumn="BEE911CF-7F25-254F-AA2C-0D6C9FD182F3"/>
+</associations>
+</Column>
+<Column name="T_UNXT_END_ID_ENDERECO" id="037B6E02-80DF-0B5B-51B5-00710CA4C459">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>EDA558F2-6D13-F8E0-15CA-4EC42560A8E4</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6C0BE06-63A3-79DE-A3CB-7523A4BD6E4C" referredColumn="3AB534CF-3FC1-F9F4-809A-8F45932DCF04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB6AFDF3-883E-1FC5-5C9D-AB6796CD9339" name="T_UNXT_END_EMP_PK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>B8C5E056-5EF7-FF50-8BBE-A140F524C7AE</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9153B00C-5ED6-B628-96CA-429A37457174"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9C42B84-CD73-ED1E-C323-90D0CA200996" name="T_UNXT_END_EMP_T_UNXT_EMP_FK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>7440CBA0-D08D-D829-7FD5-F20DDCE5F5CF</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3B6AFDB-033C-2709-8EA1-91A48D57E30D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30FD0CAF-6BC7-9969-767C-3395785F2398" name="T_UNXT_END_EMP_T_UNXT_END_FK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>4B8062AC-BCEA-921A-7648-BA579B48FEFD</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="037B6E02-80DF-0B5B-51B5-00710CA4C459"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

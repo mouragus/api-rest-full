@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA96CE17-A69A-D0BF-4DDD-BB72E6BBC814" name="T_UNXT_VAG">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>A3A3AC0F-0EBE-BEC8-0741-845B6B7C656D</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VAGA" id="99A12DD5-840B-CC61-D81F-A537A8ACF760">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>11301ACA-8920-237D-3EC2-31780A1610D3</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_UNXT_RECRUT_ID_RECRUTADOR" id="7D80E8A5-455C-A35D-80B0-98B86C50E403">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>A24378CF-1F06-28E0-0EFF-B8F002C6455D</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3F88FAD-445F-E88C-8AF8-65CF0133EDD0" referredColumn="881F092F-D2C3-D85C-3C6E-5044CDDFE2FC"/>
+</associations>
+</Column>
+<Column name="DS_DESC" id="CEB230F2-658A-47BC-69F3-CD904A55A78B">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>84E3D40B-CAE8-CEE9-6672-1B7B4A8C622B</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600</dataTypeSize>
+<ownDataTypeParameters>600,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="173F3C13-7DB4-4328-EAF2-4EED82D02258">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>87EA35B9-BA6E-9DDD-143D-45FBC202D664</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_SALARIO" id="DD4301FE-8D53-F100-3544-4BA6DF671EE8">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>077309B6-EC95-5EB6-18A5-78D520829E80</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ENCERRAMENTO" id="0E536978-1502-BF94-8795-3E3E764194AF">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>837573F9-86AE-798F-C69F-63CDF8A26F50</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BDE64A3-DD10-8E6C-2411-2BB7B83A8826" name="T_UNXT_VAG_PK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>81948BDC-A096-C289-41A6-09CA2562036A</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A12DD5-840B-CC61-D81F-A537A8ACF760"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F777DA7-1266-F2AD-0D83-5BB83275977D" name="T_UNXT_VAG_T_UNXT_RECRUT_FK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>05DF96B0-CC14-00A8-7043-788AF166E9A3</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D80E8A5-455C-A35D-80B0-98B86C50E403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

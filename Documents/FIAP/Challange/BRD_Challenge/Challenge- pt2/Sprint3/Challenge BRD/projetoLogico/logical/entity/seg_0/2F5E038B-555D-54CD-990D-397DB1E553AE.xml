@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F5E038B-555D-54CD-990D-397DB1E553AE" name="T_UNEXT_ENDERECO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:26:12 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="CC4F5956-F46D-1E5F-481D-2F9936D716F7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:26:49 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_LOGRADOURO" id="3229DFB7-2D1E-9EF0-5DF4-CDC5CA33F0A0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:27:25 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NUMERO" id="4A59843D-378B-6C6E-D93E-B5BD1AC39A41">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:29:34 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CEP" id="AE554EF4-5191-5E13-B0F2-20FC0B32C8A3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:30:27 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="488AE02A-0F75-86A2-1DD8-BCD24173B6BC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:28:21 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO" id="19A0884D-57C0-3A70-F918-2422FF090626">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:28:47 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="ABBBA1AC-7055-3D32-55FD-0BF4506ECF88">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:30:51 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_REFERENCIA" id="CDD6BB22-2FAD-A55C-B2C8-DE9C02ADF04C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:27:56 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E216A5E-69FA-0EBE-9FB2-350B5048F1BE" name="PK_T_UNEXT_ENDERECO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:27:22 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>CC4F5956-F46D-1E5F-481D-2F9936D716F7</newElementsIDs>
+<usedAttributes>
+<attributeRef>CC4F5956-F46D-1E5F-481D-2F9936D716F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

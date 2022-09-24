@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_NOTIFICACAO" directorySegmentName="seg_0" id="E10789A5-8B52-1379-62EC-F427EFA7FB3B">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 00:42:44 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<sourcePk>F5B14375-5975-84D6-D0EE-4DA36D1FA0D2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C6101150-127D-75F4-2089-CBCC0C930874</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>489C5ADB-DD66-CE80-308D-8F7D7F880136</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

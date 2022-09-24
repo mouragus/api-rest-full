@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54FA27CF-B0DB-9EC0-C362-009955BC7E85" name="T_UNXT_USER">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>7E71BDAF-98B3-D567-E77B-F7B49213C17F</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USER" id="09DAFE00-35AA-725E-74BB-B698FD44F9D9">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>0552FE3E-B58C-FF2C-85F6-A3ACCC235A75</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_USER" id="A4C38F5F-9C8E-58D3-6837-052717A1BD7B">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>5CC64C64-BA9A-92A5-5D01-DB04AAB43907</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_SENHA" id="5AB6D141-5854-5272-6A07-3426DA8C29B1">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>D4087AB2-F5B8-BF9C-236E-E7CFE91D4240</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC9F0BE3-DD95-AE56-CABE-C0C2944F61F5" name="T_UNXT_USER_PK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>612663E5-60C8-3524-DF4C-10DE60691DD6</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09DAFE00-35AA-725E-74BB-B698FD44F9D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

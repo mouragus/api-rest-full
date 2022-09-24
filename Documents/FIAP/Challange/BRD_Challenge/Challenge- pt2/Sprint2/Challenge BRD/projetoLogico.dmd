@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="projetoLogico" id="3BB4BF69-5522-161E-C468-455E2C17C3B8" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 00:49:07 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3BB4BF69-5522-161E-C468-455E2C17C3B8</designId>
+</OSDM_Design>

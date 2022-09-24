@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFADA8E7-5204-D0F8-68D3-D18F77D9EFFB" name="T_UNXT_FRM_ACD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:22:14 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_GRADUACAO" id="515AE2FE-C10E-B863-059A-062A1CCC41B9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:22:40 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CANDIDATO" id="1EC232C3-0179-6A24-EF15-281337BDFF43">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:06:14 UTC</createdTime>
+<generatorID>1456383B-CE86-00C0-08D2-1EC6C3F9BCE7</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>0207BAAC-458B-3608-09FE-BB391B24AE5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_NIVEL_GRADUCAO" id="01A1C8D3-603A-30B6-9269-AFB3586F00FB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:23:07 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_GRADUCAO" id="1FA00903-DE81-3D1B-74A4-99FEE6323842">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:23:35 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="49DCF310-687F-5D51-8111-DCD7B68475CD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:24:20 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="4ADACC9D-F1F5-C350-4CA6-3DD27E33D0F6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:24:40 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E66E442-1BD0-9B1E-AD9F-CFE04512060F" name="PK_T_UNXT_FORM_ACAD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:23:03 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>515AE2FE-C10E-B863-059A-062A1CCC41B9</newElementsIDs>
+<usedAttributes>
+<attributeRef>515AE2FE-C10E-B863-059A-062A1CCC41B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

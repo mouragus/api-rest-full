@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3F88FAD-445F-E88C-8AF8-65CF0133EDD0" containerWithKeyObject="CA96CE17-A69A-D0BF-4DDD-BB72E6BBC814" localFKIndex="7F777DA7-1266-F2AD-0D83-5BB83275977D" name="T_UNXT_VAG_T_UNXT_RECRUT_FK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>05DF96B0-CC14-00A8-7043-788AF166E9A3</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<referredTableLongName>T_UNXT_RECRUT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5CAFC85-351A-8736-1716-50C0924202D5</referredTableID>
+<keyObject>D368F5C7-FC61-1AA1-E840-64E3ECC325A4</keyObject>
+<referredKeyID>D368F5C7-FC61-1AA1-E840-64E3ECC325A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_RECRUTADOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

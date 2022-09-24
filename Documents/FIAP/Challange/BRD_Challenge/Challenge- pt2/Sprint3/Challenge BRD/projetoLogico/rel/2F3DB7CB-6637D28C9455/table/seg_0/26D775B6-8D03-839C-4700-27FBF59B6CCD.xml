@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26D775B6-8D03-839C-4700-27FBF59B6CCD" name="T_UNEXT_FORMACAO_ACADEMICA">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>DFADA8E7-5204-D0F8-68D3-D18F77D9EFFB</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GRADUACAO" id="5E3598BA-31F3-1467-DEAB-FAA0E641000C">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>515AE2FE-C10E-B863-059A-062A1CCC41B9</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CANDIDATO" id="F0A1CC33-F694-53DF-3539-3E0326F904E0">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>1EC232C3-0179-6A24-EF15-281337BDFF43</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F560E4FE-CDF3-82E0-6368-5EDB47AB861C" referredColumn="89D97807-3A39-F886-DEF9-FAB9203F6F35"/>
+</associations>
+</Column>
+<Column name="DS_NIVEL_GRADUCAO" id="25E5A2A9-1DAC-04BB-4C0D-9D8CE3FDA627">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>01A1C8D3-603A-30B6-9269-AFB3586F00FB</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_GRADUCAO" id="12338867-DEEA-4DF9-6831-4C99F69DDC51">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>1FA00903-DE81-3D1B-74A4-99FEE6323842</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="89D61C1B-225D-E6DB-39AC-26071B35B961">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>49DCF310-687F-5D51-8111-DCD7B68475CD</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="F10062CE-7AC7-A86F-B0DE-43B8C4A6A9C2">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>4ADACC9D-F1F5-C350-4CA6-3DD27E33D0F6</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_INSTITUICAO" id="10AB87B4-C829-6B7F-456E-7314CB6E4909">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 01:03:49 UTC</createdTime>
+<generatorID>57779D32-7B3D-F27A-334B-6C1D82F95F56</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A93E435-9DB4-1C0B-5653-F83208BDD9AB" name="PK_T_UNEXT_FORMACAO_ACADEMICA">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>1E66E442-1BD0-9B1E-AD9F-CFE04512060F</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E3598BA-31F3-1467-DEAB-FAA0E641000C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B7FD393-C1E8-39A0-2FF6-7AA7920FC90A" name="FK_ID_CAND">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>1456383B-CE86-00C0-08D2-1EC6C3F9BCE7</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A1CC33-F694-53DF-3539-3E0326F904E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

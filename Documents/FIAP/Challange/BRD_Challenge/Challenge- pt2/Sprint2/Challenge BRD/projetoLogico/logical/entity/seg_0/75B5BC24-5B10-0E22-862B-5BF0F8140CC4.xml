@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75B5BC24-5B10-0E22-862B-5BF0F8140CC4" name="T_UNXT_PES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:15:33 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PESSOA" id="41237EA2-865E-FC6A-1908-6E59709D00D1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:43:15 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USER" id="390075D8-D762-CE2D-0395-17BE5CA2834C">
+<createdBy>gubal</createdBy>
+<createdTime>2022-05-22 19:03:40 UTC</createdTime>
+<generatorID>81E71A0A-E86B-6512-EF16-CD48F0B9E090</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>0552FE3E-B58C-FF2C-85F6-A3ACCC235A75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_NOME" id="6BE186F7-868E-C6F1-279C-77D89D4E6F1E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:15:53 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_RG" id="2F59C9DA-6ECA-13B0-96BA-29BDF530DEBC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:19:15 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="C4FEFF43-1E1B-B1B9-3582-A579ECE7687D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:28:04 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NACIMENTO " id="E4531CB3-2668-88B6-931B-7E39EDC8AF97">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:29:41 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_SEXO" id="DC919F1A-E8D9-9442-2372-DB6DF34E9631">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:30:12 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D22B67B4-24A4-EF55-8EE2-6A4C7C9FD1B9" name="PK_T_UNXT_PESSOA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:16:16 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>41237EA2-865E-FC6A-1908-6E59709D00D1</newElementsIDs>
+<usedAttributes>
+<attributeRef>41237EA2-865E-FC6A-1908-6E59709D00D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

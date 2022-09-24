@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6101150-127D-75F4-2089-CBCC0C930874" name="T_UNEXT_CANDIDATURA">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:12:08 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CANDIDATURA" id="FF2C198E-9EA9-B8EA-77C7-E8799D7AC4C6">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:12:56 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_STATUS" id="CD6FE497-6C4C-7405-8707-A59F200D1012">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:45:59 UTC</createdTime>
+<generatorID>7D2133B9-1DF9-E459-2212-F8DA706A3D30</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>EF3B5EB2-C000-1B1D-FDF4-18EFFEC1A738</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CANDIDATO" id="38264AEC-C8D6-0151-7270-2E191B9AC957">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:52:31 UTC</createdTime>
+<generatorID>47B7CA3F-09C2-22E7-2E20-73D6EC58CE06</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>0207BAAC-458B-3608-09FE-BB391B24AE5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_VAGA" id="EED38D46-F91C-3EDA-605F-A48ED2753AF5">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:52:50 UTC</createdTime>
+<generatorID>15E62242-F303-7261-9B9C-1A44E1371B18</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>11301ACA-8920-237D-3EC2-31780A1610D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="666C8D6F-9547-79EB-8E50-C4C27207D67C">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:14:59 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_FEEDBACK" id="ABD3782B-5864-3DEA-9E1E-C0B7C72B22FE">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-09 00:28:01 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5B14375-5975-84D6-D0EE-4DA36D1FA0D2" name="PK_T_UNEXT_INSCRICAO">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:13:13 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>FF2C198E-9EA9-B8EA-77C7-E8799D7AC4C6</newElementsIDs>
+<usedAttributes>
+<attributeRef>FF2C198E-9EA9-B8EA-77C7-E8799D7AC4C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

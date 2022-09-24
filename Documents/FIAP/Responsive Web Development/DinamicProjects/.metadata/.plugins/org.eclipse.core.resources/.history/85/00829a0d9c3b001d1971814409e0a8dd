@@ -1,0 +1,6 @@
+package br.com.fiap.dao;
+
+public class ProdutoDAO {
+
+	publicProdutoDAO() {if(produto== null) {produto= newArrayList<ProdutoTO>();ProdutoTOpto= newProdutoTO();pto.setCodigo(1);pto.setPreco(27.99);pto.setQuantidade(10);pto.setTitulo("Grampeador");produto.add(pto);
+}

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="615A0D3D-159B-7BBF-487E-EA05944F5FD1" name="T_UNEXT_SKILL_VAGA">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>3F038913-6DC5-5CA1-CF3E-FA729B31CB6F</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SKILL_VAGA" id="05B70F94-3BAF-95F3-1E1D-9CCC98B7511E">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>9B0F5C18-DE48-11A7-D362-6193872BEC31</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_VAGA" id="589E9E5C-DAF3-8FE5-80C6-EBD49487CE90">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>42815758-902A-42DC-10E1-C685EB9074C1</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="823B0361-A6C3-BA84-53D7-7BB580E030E2" referredColumn="99A12DD5-840B-CC61-D81F-A537A8ACF760"/>
+</associations>
+</Column>
+<Column name="ID_SKILL" id="1906225E-CEAD-8DA3-9797-532F375D6A39">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>9FB26179-39BC-2DBA-D8A6-0F0B1233E6A1</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64BBFAB9-2219-0910-152C-BED083B17EE3" referredColumn="36875FB6-A0AE-3571-8104-11FC35294F6E"/>
+</associations>
+</Column>
+<Column name="DS_NIVEL" id="CD9DDE76-EA1F-AB56-81E6-AC8BA8AC3756">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>9ABD53CC-5B96-175C-7ED5-63597048B56F</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAF793AE-463C-7AD5-48C1-FFE5D6F578D2" name="PK_T_UNEXT_SKILL_VAGA">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>4E98CFB1-4FA6-94CE-8BF2-513D5A6226AD</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05B70F94-3BAF-95F3-1E1D-9CCC98B7511E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B995F01-EC39-ED1A-5A30-5E4CC9BB6684" name="FK_SKILLv2">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>86DCE3B8-EAD5-CF24-C29F-4438D949C490</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1906225E-CEAD-8DA3-9797-532F375D6A39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF26F60F-B7AB-CF42-74BD-4D222AE3EC3E" name="FK_VAGA">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>391607FC-E75E-C43B-8CE5-4699CCE6B65D</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="589E9E5C-DAF3-8FE5-80C6-EBD49487CE90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_END" directorySegmentName="seg_0" id="83A07914-463F-6576-6911-8F271CFCD23E">
+<createdBy>gubal</createdBy>
+<createdTime>2022-05-22 18:56:22 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<sourcePk>6E216A5E-69FA-0EBE-9FB2-350B5048F1BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F5E038B-555D-54CD-990D-397DB1E553AE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>15C5CC8A-5FB1-5638-DBE2-80D1BEEED699</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

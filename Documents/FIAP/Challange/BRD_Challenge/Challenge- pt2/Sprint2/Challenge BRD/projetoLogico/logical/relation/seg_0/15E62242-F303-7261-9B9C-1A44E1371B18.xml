@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VAGAv2" directorySegmentName="seg_0" id="15E62242-F303-7261-9B9C-1A44E1371B18">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:52:50 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<sourcePk>81948BDC-A096-C289-41A6-09CA2562036A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3A3AC0F-0EBE-BEC8-0741-845B6B7C656D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C6101150-127D-75F4-2089-CBCC0C930874</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

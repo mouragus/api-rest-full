@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15C5CC8A-5FB1-5638-DBE2-80D1BEEED699" name="T_UNXT_CAND">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 00:50:38 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CANDIDATO" id="0207BAAC-458B-3608-09FE-BB391B24AE5C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 00:51:48 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PESSOA" id="2DD39C2A-581C-0390-1111-F9F5D30C690A">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 01:10:21 UTC</createdTime>
+<generatorID>EF9AB0D0-3765-9EBA-A8B7-39FE9500659D</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>41237EA2-865E-FC6A-1908-6E59709D00D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENDERECO" id="6CA97FF0-18CE-46F4-C050-A3BAEC153FC9">
+<createdBy>gubal</createdBy>
+<createdTime>2022-05-22 18:56:22 UTC</createdTime>
+<generatorID>83A07914-463F-6576-6911-8F271CFCD23E</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>CC4F5956-F46D-1E5F-481D-2F9936D716F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ESCOLARIDADE" id="4F025694-198B-147D-220D-8DB452C6746B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:04:38 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ATUACAO" id="049032D2-56DA-0C05-9FEA-76BEE3355FE8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:05:42 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCBF91FA-64AC-D003-151F-496D3EFF2535" name="PK_T_UNXT_CAND">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 00:52:09 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0207BAAC-458B-3608-09FE-BB391B24AE5C</newElementsIDs>
+<usedAttributes>
+<attributeRef>0207BAAC-458B-3608-09FE-BB391B24AE5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

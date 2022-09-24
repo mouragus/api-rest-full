@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3A3AC0F-0EBE-BEC8-0741-845B6B7C656D" name="T_UNXT_VAG">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:08:50 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_VAGA" id="11301ACA-8920-237D-3EC2-31780A1610D3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:09:56 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RECRUTADOR" id="A24378CF-1F06-28E0-0EFF-B8F002C6455D">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 01:00:21 UTC</createdTime>
+<generatorID>05DF96B0-CC14-00A8-7043-788AF166E9A3</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>718AD28D-A7CE-9F0C-BD15-0D9171BFE94C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_DESC" id="84E3D40B-CAE8-CEE9-6672-1B7B4A8C622B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:10:31 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600</dataTypeSize>
+<ownDataTypeParameters>600,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO " id="87EA35B9-BA6E-9DDD-143D-45FBC202D664">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:11:31 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_SALARIO " id="077309B6-EC95-5EB6-18A5-78D520829E80">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:12:34 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_ENCERRAMENTO" id="837573F9-86AE-798F-C69F-63CDF8A26F50">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:13:03 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81948BDC-A096-C289-41A6-09CA2562036A" name="PK_T_UNXT_VAGA ">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-18 01:10:12 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>11301ACA-8920-237D-3EC2-31780A1610D3</newElementsIDs>
+<usedAttributes>
+<attributeRef>11301ACA-8920-237D-3EC2-31780A1610D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

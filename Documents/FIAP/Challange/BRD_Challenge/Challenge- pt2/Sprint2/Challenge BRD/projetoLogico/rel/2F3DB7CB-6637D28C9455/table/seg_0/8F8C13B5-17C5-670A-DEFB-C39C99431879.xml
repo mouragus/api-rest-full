@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F8C13B5-17C5-670A-DEFB-C39C99431879" name="T_UNXT_CONT">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>EF0860E4-49E3-6D77-61C7-49B5E3E00B37</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONTATO" id="37ED4AC0-C680-9762-74D2-D3D876BD193A">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>CD59F125-D892-5A0E-06A1-4C7B1A483076</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_UNXT_PES_ID_PESSOA" id="EA98C328-1520-64FE-9269-2BFAA81E354A">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>55939A5B-840B-234A-8823-32BB555A0ACD</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F271B225-EECA-D520-5635-4648577BE058" referredColumn="BFF593DE-7984-4E1F-2FCF-6A4597FBC9E1"/>
+</associations>
+</Column>
+<Column name="DS_EMAIL" id="7DB822B1-1C3D-1DAA-68D2-65FFC103D734">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>0860E366-3689-427F-F39E-6DA10C3FFA91</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONE" id="F9AD14C5-016A-07A2-5EAA-D2B22C5F891C">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>92CE4C52-BCB2-E8A0-9F66-18953252B38F</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BE13493-4A7D-0531-A052-71E965750309" name="T_UNXT_CONT_PK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>5AB7E485-9B9B-D983-7AF0-7A9153BD42BF</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37ED4AC0-C680-9762-74D2-D3D876BD193A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D313DF5E-E107-2132-7962-4B666B2F9FDD" name="T_UNXT_CONT_DS_EMAIL_UN">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>873857AA-F492-064D-3A9D-642E9B640FCC</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DB822B1-1C3D-1DAA-68D2-65FFC103D734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC028E22-5F6C-CF52-29AC-1AE84B4BBA33" name="T_UNXT_CONT_NR_TELEFONE_UN">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>7646E798-1A84-BCDF-7BC4-2ECCE35EFA05</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9AD14C5-016A-07A2-5EAA-D2B22C5F891C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C0ED317-3773-BF82-C65B-34EE5147AFA6" name="T_UNXT_CONT_T_UNXT_PES_FK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>068B16DB-FB54-E3A6-A760-418780D45163</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA98C328-1520-64FE-9269-2BFAA81E354A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

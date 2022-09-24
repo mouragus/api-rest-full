@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4816563-A167-905E-ADD6-E1006465105B" name="T_UNEXT_NOTIFICACAO">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 01:03:49 UTC</createdTime>
+<generatorID>489C5ADB-DD66-CE80-308D-8F7D7F880136</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NOTIFICACAO" id="1E068D7E-4118-E3B9-16AA-F41F64096C29">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 01:03:49 UTC</createdTime>
+<generatorID>B75EF21A-323B-71B7-3127-B51BBDCD3C36</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CANDIDATURA" id="37ED691F-1850-D872-7556-E22DD3FF09AE">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 01:03:49 UTC</createdTime>
+<generatorID>236BBEDF-F1C5-B453-BE7D-03C55380E34D</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD7E64FB-C73B-C857-775E-201FE766D8D7" referredColumn="E7FFB3BB-EA4B-E7CF-F28B-F99C5B53785D"/>
+</associations>
+</Column>
+<Column name="TL_NOTIFICACAO" id="321AD10A-2749-0220-20D8-548637C5433A">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 01:03:49 UTC</createdTime>
+<generatorID>40569C80-F542-EAF3-C94D-E79D721D31E3</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_NOTIFICACAO" id="CA24EB62-D55E-6FA4-E3AE-ACFCDB77AE86">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 01:03:49 UTC</createdTime>
+<generatorID>2D66FF2D-D4E0-8245-C0BA-DBA0BBAD0320</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="2B4C1213-3968-C177-5300-A379F5B8B4E8">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 01:03:49 UTC</createdTime>
+<generatorID>AD60499C-1295-0502-6D39-199E7AC2311B</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B69D4E6F-B19A-4BAC-28FA-9703B7854D9A" name="T_UNEXT_NOTIFICACAO_PK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 01:03:49 UTC</createdTime>
+<generatorID>41E16068-A238-7F83-4A5C-E947D61A00F8</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E068D7E-4118-E3B9-16AA-F41F64096C29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E5D6B39-DAC4-0D54-274C-89240D6188D3" name="FK_NOTIFICACAO">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-11 01:03:49 UTC</createdTime>
+<generatorID>E10789A5-8B52-1379-62EC-F427EFA7FB3B</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37ED691F-1850-D872-7556-E22DD3FF09AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

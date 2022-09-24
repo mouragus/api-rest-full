@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B9883B3-A148-BF7E-D5F3-3D2910F8F25B" name="T_UNXT_RECRUT">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:54:54 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_RECRUTADOR" id="718AD28D-A7CE-9F0C-BD15-0D9171BFE94C">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:55:11 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPRESA" id="AF766D87-DAD6-B986-CCD7-F5ECA2BC6CD7">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:59:02 UTC</createdTime>
+<generatorID>0A1ED07E-9751-2699-C02F-71D1D2EE015D</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>B55212F3-52FE-0A1F-D9DC-12877019E7D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PESSOA" id="F3808549-6759-4C00-E10D-F1B4ED0FEF41">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 01:03:52 UTC</createdTime>
+<generatorID>599242E5-AAB5-758E-7020-8254AB5F0333</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>41237EA2-865E-FC6A-1908-6E59709D00D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E9DDD0A-EEFA-3D9F-5401-88799550B06E" name=" PK_T_UNXT_RECRU">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:55:26 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>718AD28D-A7CE-9F0C-BD15-0D9171BFE94C</newElementsIDs>
+<usedAttributes>
+<attributeRef>718AD28D-A7CE-9F0C-BD15-0D9171BFE94C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

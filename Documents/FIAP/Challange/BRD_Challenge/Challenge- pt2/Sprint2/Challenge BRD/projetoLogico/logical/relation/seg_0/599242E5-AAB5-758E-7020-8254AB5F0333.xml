@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RECRUT" directorySegmentName="seg_0" id="599242E5-AAB5-758E-7020-8254AB5F0333">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 01:00:01 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<sourcePk>8E9DDD0A-EEFA-3D9F-5401-88799550B06E</sourcePk>
+<targetPk>D22B67B4-24A4-EF55-8EE2-6A4C7C9FD1B9</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B9883B3-A148-BF7E-D5F3-3D2910F8F25B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>75B5BC24-5B10-0E22-862B-5BF0F8140CC4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

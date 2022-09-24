@@ -1,0 +1,11 @@
+package br.com.fiap.to;
+
+public class ProdutoTO {
+	
+	privateintcodigo;privateStringtitulo;privatedoublepreco;privateintquantidade;
+
+	public ProdutoTO() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

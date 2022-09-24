@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1FB040A-2A00-13F5-83E3-BEDFC6897125" name="T_UNXT_CAND">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>15C5CC8A-5FB1-5638-DBE2-80D1BEEED699</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CANDIDATO" id="89D97807-3A39-F886-DEF9-FAB9203F6F35">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>0207BAAC-458B-3608-09FE-BB391B24AE5C</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_UNXT_PES_ID_PESSOA" id="7F93636E-C4BC-808A-8B23-1EBA3AA7AAB3">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>2DD39C2A-581C-0390-1111-F9F5D30C690A</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="151926FF-7AE9-5DEA-9924-B146052A638E" referredColumn="BFF593DE-7984-4E1F-2FCF-6A4597FBC9E1"/>
+</associations>
+</Column>
+<Column name="T_UNXT_END_ID_ENDERECO" id="43458496-7483-3A46-72A1-C16D93F4913E">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>6CA97FF0-18CE-46F4-C050-A3BAEC153FC9</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1D864ED-9829-C4B3-E40D-E5752168ACBF" referredColumn="3AB534CF-3FC1-F9F4-809A-8F45932DCF04"/>
+</associations>
+</Column>
+<Column name="DS_ESCOLARIDADE" id="67FA6C92-49AC-4F16-141F-6E3AEF206438">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>4F025694-198B-147D-220D-8DB452C6746B</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ATUACAO" id="8A06B691-92A6-4D0D-272C-61A948DA21C4">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>049032D2-56DA-0C05-9FEA-76BEE3355FE8</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA8B7723-6586-D17D-FD9E-65BED5E6E8FD" name="T_UNXT_CAND_PK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>CCBF91FA-64AC-D003-151F-496D3EFF2535</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89D97807-3A39-F886-DEF9-FAB9203F6F35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BFD7808-6E41-CF3F-E2E0-9B7E994FB11F" name="T_UNEXT_CANDIDATO__IDX">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>83A07914-463F-6576-6911-8F271CFCD23E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="43458496-7483-3A46-72A1-C16D93F4913E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AF16C5E-6B1D-6718-E337-CC417472CFE2" name="T_UNEXT_CANDIDATO__IDXv1">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EF9AB0D0-3765-9EBA-A8B7-39FE9500659D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7F93636E-C4BC-808A-8B23-1EBA3AA7AAB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36473BDA-F9F7-9973-C30A-F5B2C648BD60" name="T_UNXT_CAND_T_UNXT_END_FK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>83A07914-463F-6576-6911-8F271CFCD23E</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43458496-7483-3A46-72A1-C16D93F4913E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E394C7B0-444C-3102-F9E9-41E84DF886DF" name="T_UNXT_CAND_T_UNXT_PES_FK">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>EF9AB0D0-3765-9EBA-A8B7-39FE9500659D</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F93636E-C4BC-808A-8B23-1EBA3AA7AAB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

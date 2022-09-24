@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15695CD2-263D-8B75-012A-23AB0B549E88" name="T_UNEXT_ENDERECO_EMPRESA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:34:50 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO_EMPRESA" id="EF0AB1EA-6C3F-A7CF-6981-C246AE53452D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:35:07 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPRESA" id="90D5C765-44D6-20F2-CB74-8C1E3B06000B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:36:01 UTC</createdTime>
+<generatorID>7440CBA0-D08D-D829-7FD5-F20DDCE5F5CF</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>B55212F3-52FE-0A1F-D9DC-12877019E7D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENDERECO" id="EDA558F2-6D13-F8E0-15CA-4EC42560A8E4">
+<createdBy>Admin</createdBy>
+<createdTime>2022-05-21 00:38:13 UTC</createdTime>
+<generatorID>4B8062AC-BCEA-921A-7648-BA579B48FEFD</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<referedAttribute>CC4F5956-F46D-1E5F-481D-2F9936D716F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8C5E056-5EF7-FF50-8BBE-A140F524C7AE" name="PK_T_UNEXT_ENDERECO_EMPRESA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-21 01:35:26 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<engineerTo>
+<item key="2F3DB7CB-42C3-5CC3-5B26-6637D28C9455" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EF0AB1EA-6C3F-A7CF-6981-C246AE53452D</newElementsIDs>
+<usedAttributes>
+<attributeRef>EF0AB1EA-6C3F-A7CF-6981-C246AE53452D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

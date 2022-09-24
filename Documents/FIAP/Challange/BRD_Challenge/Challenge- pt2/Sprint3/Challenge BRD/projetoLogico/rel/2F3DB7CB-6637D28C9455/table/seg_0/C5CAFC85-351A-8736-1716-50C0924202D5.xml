@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5CAFC85-351A-8736-1716-50C0924202D5" name="T_UNEXT_RECRUTADOR">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>9B9883B3-A148-BF7E-D5F3-3D2910F8F25B</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RECRUTADOR" id="881F092F-D2C3-D85C-3C6E-5044CDDFE2FC">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>718AD28D-A7CE-9F0C-BD15-0D9171BFE94C</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EMPRESA" id="2A7E08FA-0CCA-794C-F64F-F43404DFAB2C">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>AF766D87-DAD6-B986-CCD7-F5ECA2BC6CD7</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="747E174D-46A0-C2B0-1CC9-56A0920F6775" referredColumn="BEE911CF-7F25-254F-AA2C-0D6C9FD182F3"/>
+</associations>
+</Column>
+<Column name="ID_PESSOA" id="18D9AB8B-B25A-82CC-7594-444CACA702E8">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>F3808549-6759-4C00-E10D-F1B4ED0FEF41</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B205FD2-24C4-BF15-9534-A20DA4E97619" referredColumn="BFF593DE-7984-4E1F-2FCF-6A4597FBC9E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D368F5C7-FC61-1AA1-E840-64E3ECC325A4" name="PK_T_UNEXT_RECRUTADOR">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>8E9DDD0A-EEFA-3D9F-5401-88799550B06E</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="881F092F-D2C3-D85C-3C6E-5044CDDFE2FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17BE005B-39A8-415F-E13F-219A5E27A339" name="T_UNEXT_RECRUTADOR__IDX">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>599242E5-AAB5-758E-7020-8254AB5F0333</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="18D9AB8B-B25A-82CC-7594-444CACA702E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B34033D9-CB5B-3D3A-4881-79C98141BCBC" name="FK_EMPRESA">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>0A1ED07E-9751-2699-C02F-71D1D2EE015D</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A7E08FA-0CCA-794C-F64F-F43404DFAB2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF55C614-441B-4155-7615-DC0939A1B867" name="FK_RECRUT">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>599242E5-AAB5-758E-7020-8254AB5F0333</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18D9AB8B-B25A-82CC-7594-444CACA702E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

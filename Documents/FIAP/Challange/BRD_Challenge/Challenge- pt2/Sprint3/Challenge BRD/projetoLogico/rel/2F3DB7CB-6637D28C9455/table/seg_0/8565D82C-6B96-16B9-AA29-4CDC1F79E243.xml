@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8565D82C-6B96-16B9-AA29-4CDC1F79E243" name="T_UNEXT_SKILL">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>B93A576D-CF2F-93D0-3F49-8D50B60BF82F</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SKILL" id="36875FB6-A0AE-3571-8104-11FC35294F6E">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>40D1D12A-6FCC-FF41-632B-08367D897B8F</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_SKILL" id="DCE2B3C7-3CBE-65C4-A0F5-27B3F1964A6B">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>E5B34C96-2C95-E9CB-EEA3-078AFD689BB4</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_SOFT" id="23E0C0B4-0CD2-A1C1-1803-F39FCD7FBC22">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>C98CFC1F-87A1-56DC-2816-04CB37D67F68</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_SKILL" id="1CCA9847-1F9A-7AC8-D94A-86EBEEE06FE5">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 18:47:35 UTC</createdTime>
+<generatorID>1459D739-8BC3-4541-8F8D-D46146EA4DC7</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<constraintName>CK_T_UNEXT_SKILL_TP_SKILL</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="H" description="HARD_SKILL"/>
+<valueDef value="S" description="SOFT_SKILL"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C72AF898-A00C-BE2E-4BD3-81A79BC7D959" name="PK_T_UNEXT_SKILL">
+<createdBy>USER</createdBy>
+<createdTime>2022-09-07 17:07:52 UTC</createdTime>
+<generatorID>47C35629-9E9A-05DC-81D8-7734B859B7CB</generatorID>
+<ownerDesignName>projetoLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36875FB6-A0AE-3571-8104-11FC35294F6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

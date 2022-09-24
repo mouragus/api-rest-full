@@ -1,0 +1,18 @@
+package br.com.fiap.resource;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("/dados")
+public class PessoaResources {
+
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String [][] listar(){
+		{"shows": [{"show": "Oasis","preco": 150,"local": "São Paulo"},{"show": “Link Park","preco": 250,"local": “Rio de Janeiro"},{"show": “Jorge e Mateus","preco": 200,"local": "São Paulo"}]}
+	}
+	
+	
+}
